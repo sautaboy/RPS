@@ -1,0 +1,537 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: goldenrod;
+}
+
+
+
+@media(max-width:320px) {
+
+
+    .bigContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        padding: auto;
+    }
+
+    .scoreBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: antiquewhite; */
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .scoreBox i {
+        font-size: 3rem;
+
+    }
+
+    .scoreBox span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .rpsContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid white;
+        padding: 1rem 0;
+    }
+
+    .rpsButton {
+        background-color: goldenrod;
+        border: 0px solid transparent;
+    }
+
+    .rpsContainer i {
+        font-size: 4rem;
+        background-color: goldenrod;
+    }
+
+    .rpsContainer i:hover {
+        color: chartreuse;
+    }
+
+    .resultBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px white solid;
+        padding: 1rem 0;
+    }
+
+    .resultBox i {
+        font-size: 3rem;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: goldenrod;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .box #winner {
+        font-size: 2rem;
+    }
+
+    .box #winner i {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    #stop {
+        background-color: red;
+        width: 100%;
+        height: 10vh;
+        border: none;
+        border-top: 2px solid green;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+
+
+    .bigContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        padding: auto;
+    }
+
+    .scoreBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: antiquewhite; */
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .scoreBox i {
+        font-size: 3rem;
+
+    }
+
+    .scoreBox span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .rpsContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .rpsButton {
+        background-color: goldenrod;
+        border: 0px solid transparent;
+    }
+
+    .rpsContainer i {
+        font-size: 4rem;
+        background-color: goldenrod;
+    }
+
+    .rpsContainer i:hover {
+        color: chartreuse;
+    }
+
+    .resultBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px white solid;
+        padding: 1rem 0;
+    }
+
+    .resultBox i {
+        font-size: 3rem;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .box #winner {
+        font-size: 2rem;
+    }
+
+    .box #winner i {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    #stop {
+        background-color: red;
+        width: 100%;
+        height: 10vh;
+        border: none;
+        border-top: 2px solid green;
+    }
+
+}
+
+@media (min-width: 390px) and (max-width: 768PX) {
+    .bigContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        padding: auto;
+    }
+
+    .scoreBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .scoreBox i {
+        font-size: 4rem;
+        /*  */
+
+    }
+
+    .scoreBox span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .rpsContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .rpsButton {
+        background-color: goldenrod;
+        border: 0px solid transparent;
+    }
+
+    .rpsContainer i {
+        font-size: 6rem;
+        background-color: goldenrod;
+    }
+
+    .rpsContainer i:hover {
+        color: chartreuse;
+    }
+
+    .resultBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px white solid;
+        padding: 1rem 0;
+    }
+
+    .resultBox span {
+        font-size: 2rem;
+    }
+
+    .resultBox i {
+        font-size: 3rem;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .box #winner {
+        font-size: 3rem;
+    }
+
+    .box #winner i {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    #stop {
+        background-color: red;
+        width: 100%;
+        height: 10vh;
+        border: none;
+        border-top: 2px solid green;
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 768px)and (max-width:992PX) {
+    .bigContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        padding: auto;
+    }
+
+    .scoreBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .scoreBox i {
+        font-size: 5rem;
+        /*  */
+
+    }
+
+    .scoreBox span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 5rem;
+        /*  */
+    }
+
+    .rpsContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .rpsButton {
+        background-color: goldenrod;
+        border: 0px solid transparent;
+    }
+
+    .rpsContainer i {
+        font-size: 7rem;
+        /*  */
+        background-color: goldenrod;
+    }
+
+    .rpsContainer i:hover {
+        color: chartreuse;
+    }
+
+    .resultBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px white solid;
+        padding: 1rem 0;
+    }
+
+    .resultBox span {
+        font-size: 4rem;
+    }
+
+    .resultBox i {
+        font-size: 4rem;
+    }
+
+    .resultBox h1 {
+        font-size: 4rem;
+    }
+
+    /*  */
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .box #winner {
+        font-size: 4rem;
+    }
+
+    .box #winner i {
+        font-size: 4rem;
+        /*  */
+        width: 100%;
+    }
+
+    #stop {
+        background-color: red;
+        width: 100%;
+        height: 10vh;
+        border: none;
+        border-top: 2px solid green;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+    .bigContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        padding: auto;
+    }
+
+    .scoreBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 0;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .scoreBox i {
+        font-size: 5rem;
+
+    }
+
+    .scoreBox span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .rpsContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .rpsButton {
+        background-color: goldenrod;
+        border: 0px solid transparent;
+    }
+
+    .rpsContainer i {
+        font-size: 7rem;
+        background-color: goldenrod;
+    }
+
+    .rpsContainer i:hover {
+        color: chartreuse;
+    }
+
+    .resultBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px white solid;
+        padding: 1rem 0;
+    }
+
+    .resultBox span {
+        font-size: 4rem;
+    }
+
+    .resultBox i {
+        font-size: 4rem;
+    }
+
+    .resultBox h1 {
+        font-size: 4rem;
+    }
+
+
+    .box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .box #winner {
+        font-size: 4rem;
+    }
+
+    .box #winner i {
+        font-size: 4rem;
+        width: 100%;
+    }
+
+    #stop {
+        background-color: red;
+        width: 100%;
+        height: 10vh;
+        border: none;
+        border-top: 2px solid green;
+        font-size: 2rem;
+    }
+}

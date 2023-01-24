@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c57b7eb6b9.js" crossorigin="anonymous"></script>
+    <title>RPS</title>
+</head>
+
+<body>
+    <div class="bigContainer">
+        <h1 class="scoreBoxBorder">Score Box:</h1>
+
+
+        <div class="scoreBox">
+            <div class="people">
+                <i class="fa-solid fa-person"></i>
+                <span class="playerScore">00</span>
+            </div>
+
+            <br>
+            <div class="computer">
+                <i class="fa-solid fa-computer"></i>
+                <span class="computerScore">00</span>
+            </div>
+        </div>
+
+
+        <div class="resultBox">
+            <label for="player">
+                <div class="playerOption"><i class="fa-solid fa-person"></i></div>
+                <span id="playerOption" class="playerColor">Player</span>
+            </label>
+            <label for="vs">
+                <h1>vs</h1>
+            </label>
+            <label for="computer">
+                <div class="computerOption"><i class="fa-solid fa-computer"></i></div>
+                <span id="computerOption" class="computerColor">Computer</span>
+            </label>
+        </div>
+
+        <div class="box">
+            <h1 class="h1Border">WINNER</h1>
+            <span id="winner"><i class=" smile fa-regular fa-regular fa-face-smile"></i></span>
+        </div>
+
+        <!-- all the rps button are here -->
+        <div class="rpsContainer">
+            <label>
+                <button class="rpsButton" value="Paper">
+                    <i class="fa-regular fa-hand  icon"></i></button>
+                <br>
+            </label>
+            <label>
+                <button class="rpsButton" value="Rock">
+                    <i class="fa-regular fa-hand-back-fist  icon"></i></button>
+
+            </label>
+            <label>
+                <button class="rpsButton" value="Scissors">
+                    <i class="fa-regular fa-hand-scissors  icon"></i></button>
+            </label>
+        </div>
+        <!-- thi sis the result box -->
+
+
+    </div>
+    <button id="stop">Stop</button>
+
+    <audio src="/RPS/lose-sound-effects-givefastlink.mp3" type="audio/mpeg" id="lose"></audio>
+    <audio src="/RPS/win-sound-effect-no-copyright-givefastlink.mp3" type="audio/mpeg" id="win"></audio>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
